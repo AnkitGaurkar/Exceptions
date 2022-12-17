@@ -9,8 +9,9 @@ public class Demo2 {
 			int a=25/0;
 			System.out.println(a);
 		}
-		catch(ArithmeticException e)
+		catch(NullPointerException e)
 		{
+			
 			System.out.println(e);
 		}
 		finally
