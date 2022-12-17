@@ -1,0 +1,25 @@
+package com;
+public class Demo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		try
+		{
+			int a=25;
+			
+			int c=a/5;
+			System.out.println(c);
+		}
+		catch(NullPointerException e)
+		{
+			System.out.println(e);
+		}
+		finally
+		{
+			System.out.println("Its always Execute");
+		}
+		System.out.println("Rest of the Code");
+	}
+	
+}
