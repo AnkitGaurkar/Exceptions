@@ -1,0 +1,23 @@
+package com;
+public class Demo2 {
+	
+	public static void check(int age)
+	{
+		if(age<=18)
+		{
+			throw new ArithmeticException("Age is not for voating");
+		}
+		else
+		{
+			System.out.println("You are eligible for voat");
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		check(16);
+		
+		System.out.println("Rest of the code");
+	}
+}
