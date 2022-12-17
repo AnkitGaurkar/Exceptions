@@ -1,0 +1,30 @@
+package com;
+public class Demo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		try
+
+		{
+	
+			int c=50/0;
+	
+			System.out.println(c);
+
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println(e);
+			System.out.println("Exception Handle");
+			
+		}
+		finally
+		{
+			System.out.println("Its always execute");
+		}
+		System.out.println("Rest of code");
+	}
+	
+	
+}
